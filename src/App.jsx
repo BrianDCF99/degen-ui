@@ -42,7 +42,8 @@ function App() {
   }, [htmlString]);
 
   return (
-    <div>
+
+    <div className='main'>
       <components.Header />
       <components.Body coinData={coinData} />
     </div>

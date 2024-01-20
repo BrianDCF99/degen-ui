@@ -1,0 +1,19 @@
+
+.body {
+    /* Flex Container Styles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /* Background and Layout Styles */
+    background-color: #262626;
+    width: 170vh;
+    margin: 0 auto; /* Center the container horizontally */
+    box-sizing: content-box;
+  
+    /* Responsive Height Styles */
+    height: 65vh; 
+    flex-grow: 1; 
+  }
+  

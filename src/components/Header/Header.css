@@ -1,12 +1,12 @@
-header {
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   
-  h1 {
+  .h1 {
     font-size: 100px;
     line-height: 1.1;
-    color: #535bf7;
+    color: #ffffff;
   }

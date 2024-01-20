@@ -1,39 +1,47 @@
-.coin-widget{
+.coin-widget {
+    /* Flex Container Styles */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+  
+    /* Border and Dimension Styles */
     border: 1px solid #ddd;
     border-radius: 50px;
-    max-width: 600px;
+    width : 150vh;
     margin: 0 auto;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #110c4f59;
-}
-
-.titleBox{
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    gap: 100px;
-    margin-top: -20px;
-}
-
-.infoBox{
+    background-color: rgb(26, 17, 17);
+    margin: 1vh;
+    font-size: 13px;
+  }
+  
+  .info{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 203px; 
-    margin-top: -20px;
-}
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .nameNticker{
+    width: 38vh;
+    overflow: hidden;
+    margin-left: 7vh;
+    text-align: left;
+  }
 
-.copyAdressButton{
-    border-radius: 20px;
-    min-height: 50px;
-    background-color: #24a7a3;
-    color: rgb(0, 0, 0);
-    font-size: medium;
-}
+  .nameNticker h2{
+    margin: 0;
+  }
+
+
+  .lat{
+    width: 8vh;
+  }
+  
+  .timest{
+    width: 30vh;
+  }
+  
+  .button{
+    width: 20vh;
+  }
